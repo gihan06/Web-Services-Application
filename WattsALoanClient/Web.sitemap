@@ -1,0 +1,28 @@
+﻿<siteMap>
+  <siteMapNode title="Home" description="Home" url="~/Home.aspx"  >
+    <siteMapNode title="Manager" description="Manager"
+         url="~/Manager.aspx">
+      <siteMapNode title="Delete Employee"
+           description="Delete Employee from database"
+           url="~/DeleteEmployee.aspx" />
+      <siteMapNode title="Insert Employee"
+           description="Insert Employee from Data base"
+           url="~/InsertEmployee.aspx" />
+      <siteMapNode title="Update Employee"
+     description="Update Employee in Data base"
+     url="~/UpdateEmployee.aspx" />
+      <siteMapNode title="Insert loan"
+     description="Insert Loan to Data base"
+     url="~/InsertLoan.aspx" />
+    </siteMapNode>
+    <siteMapNode title="Advisor" description="Advosors work"
+        url="~/Advisor.aspx">
+      <siteMapNode title="Insert Customer" description="Insert Customer to Data base"
+          url="~/InsertCustomer.aspx" />
+      <siteMapNode title="Update Customer" description=" Update Customer from data base"
+          url="~/UpdateCustomer.aspx" />
+      <siteMapNode title="Insert Loan Allocation" description="Insert Loan Allocation "
+          url="~/InsertLoanAllocation.aspx" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
